@@ -1,0 +1,726 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: beige;
+}
+header{
+    padding: 3px;
+    margin: 0px;
+    background-color: rgb(32, 32, 61);
+}
+ h2{
+    color: white;
+    font-size: larger;
+    position: absolute;
+    left: 15%;
+    top: 0%;
+    left: 8%;
+}
+nav ul{
+    display: flex;
+    margin-left: 62%;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    text-transform: capitalize;
+}
+#image2{
+    width: 5%;
+    position: absolute;
+    left: 15px;
+    top: 11px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: burlywood;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 33px;
+}
+.header{
+    width: 50%;
+    margin: auto;
+}
+.header p{
+    margin-left: 55px;
+}
+.header a{
+    margin-left: 90px;
+    text-decoration: none;
+    border: 2px solid  none;
+    border-radius: 10px;
+    color: white;
+    padding: 6px;
+    background-color: rgb(240, 16, 146);
+}
+
+.grand{
+    background-color: rgb(189, 187, 187);
+    height: 16rem;
+    width: 100%;
+    margin-top: -5%;
+}
+.grand div{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+}
+div{
+    background-color: none;
+    width: 25%;
+    position: relative;
+    top: 0%;
+    left: 18%;
+    height: 16rem;
+    margin-left: 5%;
+}
+
+.para1 h1{
+  text-align: left;
+  text-transform: capitalize;
+}
+.para1{
+    position: relative;
+    top: 0px;
+}
+.para1  p{
+    text-align: left;
+    text-transform: capitalize;
+    font-weight: lighter;
+}
+
+.para{
+    background-position: center;
+    width: 25%;
+    position: relative;
+    top:   0%;
+    left: 15%;
+}
+.para img{
+    width: 95%;
+    height: 10rem;
+}
+
+.apropos{
+    width: 55%;
+    margin: auto;
+}
+.apropos h1{
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.apropos  p{
+    text-align: left;
+    font-weight: lighter;
+}
+
+.option{
+    width: 54%;
+    margin: auto;
+}
+
+.option ul li{
+    list-style: disc; 
+}
+
+footer{
+    background-color: rgb(32, 32, 61);
+    padding: 65px;
+}
+
+footer h3{
+    text-transform: capitalize;
+    color: white;
+    font-weight: lighter;
+    margin-left: 19%;
+}
+
+/*ceci est la deuxieme partie*/
+
+.deux{
+    margin: 0px;
+    padding: 0px;
+}
+.secundo{
+    margin: 0px;
+    margin-top: 3%;  
+}
+.para3{
+    position: relative;
+    left: 15%;
+    top: 18px; 
+}
+.para3 h1{
+    text-align: left;
+    text-transform: capitalize;
+}
+.para3 p{
+    text-align: left;
+    font-weight: lighter;
+}
+.deuxpara{
+    background-position: center;
+    position: relative;
+    top:   13%;
+    left:25%;
+}
+.deuxpara img{
+    width: 280px;
+
+}
+#article{
+    background-color: none;
+    width: 60%;
+    margin: auto;
+}
+#article h1{
+    margin-left: 13%;
+    font-weight: bold;
+}
+#article div{
+  display: inline-block;
+  width: 8rem;
+  margin-top: 18px;
+}
+
+.img{
+    background-color: rgb(189, 187, 187);
+    margin-left: -99px;
+    border-radius: 182%;
+    height: 120px;
+}
+
+#article div p{
+    text-align: left;
+    margin-left: -28px;
+}
+.titi{
+       border-radius: 182%;
+       width: 8rem;
+       height: 8rem;
+    }
+.html,.php,.javascript,.css,.python,.sql,.visuel{
+    width: 10rem;
+    height: 11.2rem;
+}
+
+/*ceci est la partie cours*/
+.cours{
+    margin: 0px;
+    padding: 0px;
+}
+.string{
+    margin: 0px;
+    margin-top: 3%;  
+}
+.grand{
+    margin-top: -2%;
+}
+#articlo{
+    background-color: none;
+    width: 60%;
+    margin: auto;
+}
+#articlo h1{
+    margin-left: 13%;
+    font-weight: bold;
+}
+#articlo div{
+  display: inline-block;
+  width: 10rem;
+  margin-top: 18px;
+}
+
+.image{
+    background-color: rgb(189, 187, 187);
+    margin-left: -99px;
+    height: 180px;
+}
+#articlo div p{
+    text-align: left;
+    margin-left: -28px;
+}
+
+.deuxparainput{
+    position: relative;
+    top:   -42%;
+    left: 35%;
+}
+
+.deuxparainput button{
+    width: 90%;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    border: 0px solid white;
+    top: 30%;
+    left: 5px;
+    color: white;
+    background-color: rgb(240, 16, 146);
+}
+
+.para34{
+    position: relative;
+    left: 33px;
+    top: 0px; 
+}
+.para34 h1{
+    text-align: left;
+    text-transform: capitalize;
+}
+.para34 p{
+    text-align: left;
+    font-weight: lighter;
+}
+
+#btn{
+    background-color: white;
+    color: black;
+}
+
+.formbody{
+    margin: 0px;
+    padding: 0px;
+}
+#formula{
+    width: 100%;
+    margin: 15%;
+    margin-top: -3%;
+    margin-left: -0.3%;
+}
+.input_cont{
+    width: 45rem;
+    height: 25rem;
+    margin: 5%;
+    padding: 10px;
+}
+.input_cont  input{
+    padding: 8px;
+    background-color: rgb(215, 208, 208);
+    border:1px solid white;
+    width: 40%;
+    border-radius: 10px;
+    margin: 0px;
+    margin-left: 38px;
+    margin-top: 10%;
+    padding: 12px;
+}
+.input_cont textarea{
+    background-color: rgb(215, 208, 208);
+    margin-top: 10%;
+    margin-left: 44px;
+    border: 1px solid white;
+    border: outset;
+    border-radius: 5px;
+}
+
+#formpara{
+    position: absolute;
+    top: 8%;
+    left: 21%;
+    width: 35%;
+}
+
+.btnform{
+    position: relative;
+    top: 10%;
+    left: -41%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgb(227, 23, 142);
+    color: white;
+    width: 41%;
+}
+
+.headerpara{
+    position: relative;
+    left: -8%;
+}
+
+/*ceci est le media query*/
+
+@media screen And (max-width : 900px) {
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-color: beige;
+    }
+    header{
+        height: 2rem;
+        margin: 0px;
+        
+    }
+     h2{
+        color: white;
+        font-size: larger;
+        position: absolute;
+        left: 22%;
+        top: -2%;
+        left: 8%;
+    }
+    nav ul{
+        display: flex;
+        margin-left: 3rem;
+        margin-top: 1.0%;
+    }
+    nav ul li a{
+        text-decoration: none;
+        font-size: medium;
+        text-transform: capitalize;
+        color: white;
+        list-style: none;
+        line-height: 0.7em;
+    }
+    #image2{
+        width: 5%;
+        position: absolute;
+        left: 10px;
+        top: 11px;
+    } 
+    .header{
+        width: 60%;
+        margin: auto;
+        position: relative;
+        top: 3rem;
+        left: 3%;
+    }
+    .header h1{
+        font-size: medium;
+        margin-left: 23%;
+    }
+    .header p{
+        margin-left: 55px;
+    }
+    .header a{
+        margin-left: 90px;
+        text-decoration: none;
+        border: 2px solid  none;
+        border-radius: 10px;
+        color: white;
+        padding: 6px;
+        background-color: rgb(240, 16, 146);
+    }
+    div{
+        background-color: none;
+        width: 100%;
+        position: relative;
+        top: 0%;
+        left: 18%;
+        height: 16rem;
+        margin-left: 0%;
+    }
+    .sec{
+        width: 100%;
+    }
+    .para1 h1{
+      text-align: left;
+      text-transform: capitalize;
+      font-size: medium;
+    }
+    .para1{
+        position: relative;
+        top: 5%;
+        left: 15%;
+        width: 50%;
+    }
+    .para1  p{
+        text-align: left;
+        text-transform: capitalize;
+        font-weight: lighter;
+        font-size: small;
+    }
+    .grand{
+        margin-top: -56%;
+    }
+    .para{
+        background-position: center;
+        width: 25%;
+        position: relative;
+        top:   0%;
+        left: 15%;
+    }
+    .para img{
+        width: 100%;
+        height: 40%;
+        margin-left: -55%;
+    }
+    
+    .apropos{
+        width: 100%;
+        margin: auto;
+        padding: 5px;
+    }
+    .apropos h1{
+        text-align: center;
+        text-transform: capitalize;
+    }
+    
+    .apropos  p{
+        text-align: left;
+        font-weight: lighter;
+    }
+    
+    .option{
+        margin-left: 10px;
+    }
+    
+    .option ul li{
+        list-style: disc; 
+    }
+    
+    footer{
+        background-color: rgb(32, 32, 61);
+        padding: 110px;
+        width: 100%;
+    }
+    
+    footer h3{
+        text-transform: capitalize;
+        color: white;
+        font-weight: lighter;
+        font-size: medium;
+        margin-left: -15%;
+    }
+    
+    /*ceci est la deuxieme partie*/
+    
+    .deux{
+        margin: 0px;
+        padding: 0px;
+    }
+    .secundo{
+        margin: 0px;
+        margin-top: 3%;  
+    }
+    .para3{
+        position: relative;
+        left: 50%;
+        top: 13px; 
+        width: 38%;
+    }
+    .para3 h1{
+        font-size: medium;
+        text-align: left;
+        text-transform: capitalize;
+    }
+    .para3 p{
+        text-align: left;
+        font-size: small;
+        font-weight: lighter;
+    }
+    .deuxpara{
+        background-position: center;
+        position: relative;
+        top: 0%;
+        left: -36%;
+        width: 180px;
+    }
+    .deuxpara img{
+        width: 180px;
+    
+    }
+    #article{
+        background-color: none;
+        width: 50%;
+        margin: auto;
+    }
+    #article h1{
+        margin-left: 13%;
+        font-weight: bold;
+    }
+    #article div{
+      display: block;
+      width: 100%;
+    }
+    
+    .img{
+        margin-left: -4rem;
+        height: 13rem;
+        width: 50%;
+        border-radius: 0px;
+    }
+    .image{
+        width: 50%;
+        height: 13rem;
+        margin-left: 0%;
+    }
+    #article div p{
+        text-align: left;
+        margin-left: -5px;
+    }
+    .titi{
+           width: 100%;
+           height: 13rem;
+           border-radius: 0px;
+        }
+    /*ceci est la partie cours*/
+    .cours{
+        margin: 0px;
+        padding: 0px;
+    }
+    .string{
+        margin: 0px;
+        margin-top: 8%;  
+    }
+    .grand{
+        margin-top: 13%;
+    }
+    #articlo{
+        background-color: none;
+        width: 90%;
+    }
+    #articlo h1{
+        width: 20%;
+        margin: 0 auto;
+        font-weight: bold;
+    }
+    #articlo div{
+      width: 70%;
+      position: relative;
+      top: 5%;
+      margin: 0 auto;
+    }
+    
+    .image{
+        display: block;
+    }
+    
+    #articlo div p{
+        position: relative;
+        top: 5%;
+        width: 15%;
+        margin: 0 auto;
+    }
+    .html,.php,.javascript,.css,.python,.sql,.visuel{
+        width: 100%;
+        height: 13rem;
+    }
+    
+    .deuxparainput{
+        position: relative;
+        top:-42%;
+        left: 5%;
+        width: 90%;
+    }
+    
+    .deuxparainput button{
+        width: 50%;
+        margin: 5px;
+        padding: 10px;
+        border-radius: 10px;
+        position: relative;
+        border: 0px solid white;
+        top: 2%;
+        left: 5px;
+        color: white;
+        background-color: rgb(240, 16, 146);
+    }
+    
+    .para34{
+        position: relative;
+        left: 33px;
+        top: 0px; 
+        width: 90%;
+    }
+    .para34 h1{
+        text-align: left;
+        font-size: medium;
+        text-transform: capitalize;
+    }
+    .para34 p{
+        text-align: left;
+        font-weight: lighter;
+    }
+    
+    #btn{
+        background-color: white;
+        color: black;
+    }
+    
+    .formbody{
+        margin: 0px;
+        padding: 0px;
+    }
+    #formula{
+        width: 100%;
+        margin: 15%;
+        margin-top: -3%;
+        margin-left: -0.3%;
+    }
+    .input_cont{
+        display: block;
+        width: 15rem;
+        height: 28rem;
+        margin: 0%;
+        padding: 10px;
+    }
+    .input_cont  input{
+        display: inline-block;
+        vertical-align: middle;
+        padding: 5px;
+        background-color: rgb(215, 208, 208);
+        border:1px solid white;
+        width: 20rem;
+        border-radius: 10px;
+        margin: 10px;
+        margin-left: 0px;
+        margin-top: 0%;
+        padding: 12px;
+        position: relative;
+        top: 19%;
+    }
+    .input_cont textarea{
+        background-color: rgb(215, 208, 208);
+        margin-top: 5%;
+        margin-left: 0%;
+        border: 1px solid white;
+        border: outset;
+        border-radius: 5px;
+        position: relative;
+        top: 15%;
+    }
+    
+    #formpara{
+        position: absolute;
+        top: 0%;
+        left: 21%;
+        width: 70%;
+    }
+    #formpara h3{
+        font-size: medium;
+        position: relative;
+        top: 8%;
+    }
+    #formpara p{
+        font-size: medium;
+        position: relative;
+        top: 5%;
+    }
+    .btnform{
+        position: relative;
+        top: 18%;
+        left: 0%;
+        padding: 10px;
+        border: 1px solid white;
+        border-radius: 10px;
+        background-color: rgb(227, 23, 142);
+        color: white;
+        width: 70%;
+    }
+    
+    .headerpara{
+        position: relative;
+        left: -8%;
+        width: 100%;
+    }
+}
